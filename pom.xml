@@ -36,7 +36,7 @@
 								<properties>
 									<env>dev</env>
 									<api.id>18312588</api.id>
-									<anypoint.platform.client_id>49c8de67da04e80a3ff64ad7c145653</anypoint.platform.client_id>
+									<anypoint.platform.client_id>749c8de67da04e80a3ff64ad7c145653</anypoint.platform.client_id>
 									<anypoint.platform.client_secret>b33D786166414a9C98A5B319cf3c3f4E</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
