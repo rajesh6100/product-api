@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-            bat 'mvn -B -U -e -V clean -gs %M2SETTINGS% -DskipTests package'
+            bat 'mvn -B -U -e -V clean %M2SETTINGS% -DskipTests package'
       }
     }
 
@@ -18,7 +18,7 @@ pipeline {
      stage('Deploy Development') {
       
       steps {
-            bat 'mvn -U -V -e -B -gs %M2SETTINGS% -DskipTests -Pdev deploy -DmuleDeploy'
+            bat 'mvn -U -V -e -B %M2SETTINGS% -DskipTests -Pdev deploy -DmuleDeploy'
       }
     }
   }
